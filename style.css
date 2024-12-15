@@ -1,0 +1,2157 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+/* Загальні Стилі */
+/* Загальні Стилі */
+/* Загальні Стилі */
+/* Загальні Стилі */
+/* Загальні Стилі */
+
+
+
+html, body {
+    overflow-x: hidden;
+    font-family: "Montserrat Alternates", sans-serif;
+    background-color: #ffffff;
+    color: #fff;
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+a {
+    color: #63544c;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1875px;
+    margin: 0 auto;
+    /* margin: left auto; */
+    padding: 0 15px;
+}
+
+.btn, .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 200px;
+    height: 40px;
+
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+
+    background: #2e2e2e;
+    border-radius: 5px;
+
+    transition: opacity 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.button:hover {
+ opacity: 0.8;
+}
+
+
+
+/* Шапка */
+/* Шапка */
+/* Шапка */
+/* Шапка */
+/* Шапка */
+
+
+
+.header {
+    padding: 10px 0;
+    max-width: 100%;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    position: absolute;
+    left: 15px;
+}
+
+.header__nav {
+
+}
+
+.header__list {
+    display: flex;
+    gap: 50px;
+}
+
+.header__nav a {
+    font-size: 14px;
+    opacity: 0.8;
+    color: #63544c;
+    transition: opacity 0.3s;
+}
+
+.header__nav a.active {
+    font-size: 14px;
+    opacity: 1;
+    color: #423833;
+}
+
+.header__nav a:hover {
+    opacity: 0.8;
+}
+
+.main {
+    margin: 0;
+}
+
+
+/* ---------------------------------------------------------- */
+
+
+/* Головна сторінка */
+/* Головна сторінка */
+/* Головна сторінка */
+/* Головна сторінка */
+/* Головна сторінка */
+
+
+.welcome {
+    padding: 421px 0;
+
+    background-image: url(images/1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.welcome__container {
+}
+
+.container {
+    
+}
+
+
+.image2__main {
+    position: absolute;
+    top: 930px;
+    right: -13px;
+
+    z-index: 1;
+}
+
+.image3__main {
+    position: absolute;
+    top: 1325px;
+    left: 0;
+
+    z-index: 1;
+}
+
+.image4__main {
+    position: absolute;
+    top: 1775px;
+    left: 0;
+
+    z-index: 1;
+}
+
+.streetwear__text {
+    position: absolute;
+    top: 1050px;
+    left: 100px;
+
+    font-family: "Montserrat Alternates", sans-serif;
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+
+    letter-spacing: -2px;
+}
+
+
+
+/* font-family: "Nunito", serif; */
+/* font-family: "Archivo Black", sans-serif; */
+/* font-family: "Montserrat Alternates", sans-serif; */
+
+
+
+.welcome__subtitle {
+    font-family: "Archivo Black", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+
+    position: absolute;
+    top: 1025px;
+    left: 75px;
+}
+
+.button {
+    position: absolute;
+    top: 1200px;
+    left: 100px;
+}
+
+
+/* ---------------------------------------------------------- */
+
+
+
+
+
+/* Каталог */
+/* Каталог */
+/* Каталог */
+/* Каталог */
+/* Каталог */
+
+.image1__catalog {
+    position: absolute;
+    top: 100px;
+    right: 0;
+
+    z-index: 1;
+}
+
+.image2__catalog {
+    position: absolute;
+    top: 468px;
+    left: -1px;
+
+    z-index: 1;
+}
+
+.button__catalog {
+    position: absolute;
+    top: 872px;
+    left: 40px;
+
+    z-index: 2;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 220px;
+    height: 50px;
+
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+
+    background: #131313;
+
+    transition: opacity 0.3s;
+}
+
+.button__catalog1 {
+    position: absolute;
+    top: 872px;
+    left: 520px;
+
+    z-index: 2;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 215px;
+    height: 50px;
+
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+
+    background: #131313;
+
+    transition: opacity 0.3s;
+}
+
+.button__catalog2 {
+    position: absolute;
+    top: 872px;
+    left: 1645px;
+
+    z-index: 2;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 215px;
+    height: 50px;
+
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000000;
+
+    background: #fff;
+
+    transition: opacity 0.3s;
+}
+
+
+.button__catalog:hover {
+    opacity: 0.5;
+}
+
+
+.button__catalog1:hover {
+    opacity: 0.5;
+}
+
+.button__catalog2:hover {
+    opacity: 0.5;
+}
+
+
+.category__buttons {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.category__btn__jeans {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #1d1d1d;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.category__btn__trousers {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #1d1d1d;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.category__btn__pants {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #1d1d1d;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.category__btn__tshirts {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #1d1d1d;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.category__btn__shirt {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #1d1d1d;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.category__btn__headress {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #1d1d1d;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.category__btn__zippers {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #1d1d1d;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.category__btn__shorts {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #1d1d1d;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.category__btn__hoodies {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #1d1d1d;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.category__btn__switshots {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #1d1d1d;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.category__btn {
+    background-color: #1f1d1d;
+}
+
+
+.category__btn__jeans {
+    position: absolute;
+    top: 40px;
+    left: 70px;
+
+    width: 90px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+    transition: opacity 0.3s;
+}
+
+.category__btn__trousers {
+    position: absolute;
+    top: 40px;
+    left: 270px;
+
+    width: 90px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+    transition: opacity 0.3s;
+}
+
+.category__btn__pants {
+    position: absolute;
+    top: 240px;
+    left: 70px;
+
+    width: 160px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+    transition: opacity 0.3s;
+}
+
+.category__btn__tshirts {
+    position: absolute;
+    top: 140px;
+    left: 270px;
+
+    width: 90px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+    transition: opacity 0.3s;
+}
+
+.category__btn__shirt {
+    position: absolute;
+    top: 40px;
+    left: 670px;
+
+    width: 90px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+    transition: opacity 0.3s;
+}
+
+.category__btn__headress {
+    position: absolute;
+    top: 140px;
+    left: 670px;
+
+    width: 110px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+    transition: opacity 0.3s;
+}
+
+.category__btn__zippers {
+    position: absolute;
+    top: 140px;
+    left: 70px;
+
+    width: 90px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+    transition: opacity 0.3s;
+}
+
+.category__btn__shorts {
+    position: absolute;
+    top: 40px;
+    left: 470px;
+
+    width: 90px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+    transition: opacity 0.3s;
+}  
+
+.category__btn__hoodies {
+    position: absolute;
+    top: 140px;
+    left: 470px;
+
+    width: 90px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+    transition: opacity 0.3s;
+}
+
+.category__btn__switshots {
+    position: absolute;
+    top: 240px;
+    left: 340px;
+
+    width: 130px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+    transition: opacity 0.3s;
+}
+
+
+.category__btn__jeans:hover {
+    opacity: 0.8;
+}
+
+.category__btn__trousers:hover {
+    opacity: 0.8;
+}
+
+.category__btn__pants:hover {
+    opacity: 0.8;
+}
+
+.category__btn__tshirts:hover {
+    opacity: 0.8;
+}
+
+.category__btn__shirt:hover {
+    opacity: 0.8;
+}
+
+.category__btn__headress:hover {
+    opacity: 0.8;
+}
+
+.category__btn__zippers:hover {
+    opacity: 0.8;
+}
+
+.category__btn__shorts:hover {
+    opacity: 0.8;
+}
+
+.category__btn__hoodies:hover {
+    opacity: 0.8;
+}
+
+.category__btn__switshots:hover {
+    opacity: 0.8;
+}
+
+
+/* ---------------------------------------------------------- */
+
+
+
+
+/* Footer - index.html */
+/* Footer - index.html */
+/* Footer - index.html */
+/* Footer - index.html */
+/* Footer - index.html */
+
+
+.footer {
+    background-color: #1f1d1d;
+    padding: 140px 0;
+    width: 100%;
+
+    position: absolute;
+    z-index: 2;
+    top: 2620px;
+
+    margin-top: auto;
+}
+
+.footer__2 {
+    background-color: #2b2b2a;
+    padding: 35px 0;
+    width: 100%;
+
+    position: absolute;
+    z-index: 2;
+    top: 2900px;
+
+    margin-top: auto;
+}
+
+.footer__3 {
+    background-color: #fff;
+    padding: 0.5px 0;
+    width: 100%;
+
+    position: absolute;
+    z-index: 2;
+    top: 3000px;
+
+    margin-top: auto;
+}
+
+
+.footer__socials {
+    position: absolute;
+    right: 180px;
+    top: 150px;
+
+    letter-spacing: 20px;
+}
+
+.footer__title {
+    position: absolute;
+    right: 250px;
+    top: 40px;
+
+    z-index: 2;
+
+    font-weight: 600;
+    font-size: 17px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.footer__logo {
+    position: absolute;
+    left: 48.5%;
+    top: 25%;
+}
+
+
+.main__text__footer {
+    position: relative;
+    left: 150px;
+
+    font-size: 12px;
+}
+
+.footer__schedule {
+    position: relative;
+    left: 440px;
+
+    font-size: 14px;
+
+}
+
+.footer__telephone {
+    position: relative;
+    right: -900px;
+
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+.container__3 {
+    
+}
+
+.payment1 {
+    position: relative;
+    left: 48%;
+    bottom: 10px;
+}
+
+.payment2 {
+    position: relative;
+    left: 48%;
+    bottom: 5px;
+}
+
+
+/* ---------------------------------------------------------- */
+
+
+
+
+
+/* footer about.html */
+/* footer about.html */
+/* footer about.html */
+/* footer about.html */
+/* footer about.html */
+
+
+.footer__about {
+    background-color: #1f1d1d;
+    padding: 150px 0;
+    width: 100%;
+
+    position: absolute;
+    z-index: 2;
+    top: auto;
+
+    margin-top: 10px;
+}
+
+.footer__logo__about {
+    position: absolute;
+    left: 48.5%;
+    top: 25%;
+}
+
+.footer__about__2 {
+    background-color: #2b2b2a;
+    padding: 35px 0;
+    width: 100%;
+
+    position: absolute;
+    z-index: 2;
+    top: 1200px;
+
+    margin-top: auto;
+}
+
+.footer__about__3 {
+    background-color: #fff;
+    padding: 0.5px 0;
+    width: 100%;
+
+    position: absolute;
+    z-index: 2;
+    top: 1300px;
+
+    margin-top: auto;
+}
+
+.payment__about__1 {
+    position: relative;
+    left: 48%;
+    bottom: 10px;
+}
+
+.payment__about__2 {
+    position: relative;
+    left: 48%;
+    bottom: 5px;
+}
+
+
+.about_text:not(.about1) {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+    margin: 120px 0;
+
+    text-align: left;
+    padding: 0 380px;
+    position: relative;
+    top: 10px;
+  }
+
+.about1 {
+    position: absolute;
+    top: -90px;
+    font-size: 50px;
+}
+
+.about__container {
+    max-width: 1500px;
+}
+
+.footer__socials-icons1 {
+    word-spacing: 25px;
+    position: absolute;
+    right: 85px;
+    bottom: -180px;
+}
+
+.footer__title1 {
+    position: absolute;
+    right: 205px;
+    bottom: -90px;
+    font-size: 18px;
+}
+
+.footer__socials1 {
+    font-weight: 800;
+}
+
+
+.footer__questions {
+    background-color: #1f1d1d;
+    padding: 150px 0;
+    width: 100%;
+
+    position: absolute;
+    z-index: 2;
+    top: 1800px;
+
+}
+
+.footer__logo__questions {
+    position: absolute;
+    left: 48.5%;
+    top: 25%;
+}
+
+.footer__questions__2 {
+    background-color: #2b2b2a;
+    padding: 35px 0;
+    width: 100%;
+
+    position: absolute;
+    z-index: 2;
+    top: 2100px;
+}
+
+.footer__questions__3 {
+    background-color: #fff;
+    padding: 0.5px 0;
+    width: 100%;
+
+    position: absolute;
+    z-index: 2;
+    top: 2200px;
+
+    margin-top: auto;
+}
+
+.payment__questions__1 {
+    position: relative;
+    left: 48%;
+    bottom: 10px;
+}
+
+.payment__questions__2 {
+    position: relative;
+    left: 48%;
+    bottom: 5px;
+}
+
+
+/* ---------------------------------------------------------- */
+
+
+
+
+
+/* Часті запитання  */
+/* Часті запитання  */
+/* Часті запитання  */
+/* Часті запитання  */
+/* Часті запитання  */
+
+
+.questions_text {
+    color: black
+}
+
+.questions {
+    font-family: "Montserrat Alternates", sans-serif;
+
+    font-weight: 200;
+    font-size: 50px;
+    color: black;
+
+    display: flex;
+    position: absolute;
+    left: 240px;
+    top: 100px;
+}
+
+
+.header__question1 {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: black;
+    font-size: 20px;
+
+    position: absolute;
+    left: 240px;
+    top: 250px;
+
+    
+}
+
+.header__question2 {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: black;
+    font-size: 20px;
+
+    position: absolute;
+    left: 240px;
+    top: 620px;
+}
+
+.header__question3 {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: black;
+    font-size: 20px;
+
+    position: absolute;
+    left: 240px;
+    top: 880px;
+}
+
+.main__text__questions1 {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: black;
+    font-size: 17px;
+
+    position: absolute;
+    left: 240px;
+    top: 350px;
+}
+
+.main__text__questions2 {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: black;
+    font-size: 17px;
+
+    position: absolute;
+    left: 240px;
+    top: 715px;
+}
+
+.main__text__questions2-1 {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: black;
+    font-size: 17px;
+
+    position: absolute;
+    left: 1050px;
+    top: 715px;
+}
+
+.main__text__questions3 {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: black;
+    font-size: 17px;
+
+    position: absolute;
+    left: 240px;
+    top: 990px;
+    line-height: 1.2;
+
+    max-width: 700px;
+}
+
+.main__text__questions4 {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: black;
+    font-size: 17px;
+
+    position: absolute;
+    left: 1050px;
+    top: 990px;
+    line-height: 0.7;
+
+    max-width: 400px;
+}
+
+.main__text__questions5 {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: black;
+    font-size: 17px;
+
+    position: absolute;
+    left: 240px;
+    top: 1210px;
+    line-height: 0.7;
+}
+
+.main__text__questions6 {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: black;
+    font-size: 17px;
+
+    position: absolute;
+    left: 1050px;
+    top: 1210px;
+    line-height: 0.7;
+}
+
+.main__text__questions1_1 {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: black;
+    font-size: 15px;
+
+    position: absolute;
+    left: 240px;
+    top: 425px;
+    line-height: 1.5;
+    opacity: 0.5;
+
+    max-width: 600px;
+}
+
+.main__text__questions2_1 {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: black;
+    font-size: 15px;
+
+    position: absolute;
+    left: 240px;
+    top: 760px;
+    line-height: 1.5;
+    opacity: 0.5;
+
+    max-width: 600px;
+}
+
+.main__text__questions2_2 {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: black;
+    font-size: 15px;
+
+    position: absolute;
+    left: 1050px;
+    top: 760px;
+    line-height: 1.3;
+    opacity: 0.5;
+
+    max-width: 500px;
+}
+
+.main__text__questions3_1 {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: black;
+    font-size: 15px;
+
+    position: absolute;
+    left: 240px;
+    top: 1060px;
+    line-height: 0.7;
+    opacity: 0.5;
+
+    max-width: auto;
+}
+
+.main__text__questions4_1 {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: black;
+    font-size: 15px;
+
+    position: absolute;
+    left: 1050px;
+    top: 1050px;
+    line-height: 1.1;
+    opacity: 0.5;
+
+    max-width: 500px;
+}
+
+.main__text__questions5_1 {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: black;
+    font-size: 15px;
+
+    position: absolute;
+    left: 240px;
+    top: 1255px;
+    line-height: 0.7;
+    opacity: 0.5;
+
+    max-width: auto;
+}
+
+.main__text__questions6_1 {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: black;
+    font-size: 15px;
+
+    position: absolute;
+    left: 1050px;
+    top: 1255px;
+    line-height: 1.5;
+    opacity: 0.5;
+
+    max-width: 500px;
+}
+
+
+/* ---------------------------------------------------------- */
+
+
+
+
+
+/* Джинси */
+/* Джинси */
+/* Джинси */
+/* Джинси */
+/* Джинси */
+
+
+.jeans1 {
+    position: absolute;
+    width: 716.28px;
+
+    left: 400px;
+    top: 100px;
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.jeans2 {
+    position: absolute;
+    width: 716.28px;
+
+    left: 1175px;
+    top: 100px;
+
+    margin: 0;
+    padding: 0;
+}
+
+
+.jeans3 {
+    position: absolute;
+    width: 716.28px;
+
+    left: 400px;
+    top: 1050px;
+}
+
+.jeans4 {
+    position: absolute;
+    width: 716.28px;
+
+    left: 1175px;
+    top: 1050px;
+}
+
+.jeans5 {
+    position: absolute;
+    width: 716.28px;
+
+    left: 400px;
+    top: 2000px;
+}
+
+.jeans1__text {
+    position: absolute;
+    z-index: 5;
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+
+    left: 405px;
+    top: 895px;
+
+    letter-spacing: 0.5px;
+}
+
+
+.jeans2__text {
+    position: absolute;
+    z-index: 5;
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+
+    left: 1180px;
+    top: 895px;
+
+    letter-spacing: 0.5px;
+}
+
+.jeans3__text {
+    position: absolute;
+    z-index: 5;
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+
+    left: 405px;
+    top: 1850px;
+
+    letter-spacing: 0.5px;
+}
+
+.jeans4__text {
+    position: absolute;
+    z-index: 5;
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+
+    left: 1180px;
+    top: 1850px;
+
+    letter-spacing: 0.5px;
+}
+
+.jeans5__text {
+    position: absolute;
+    z-index: 5;
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+
+    left: 405px;
+    top: 2800px;
+
+    letter-spacing: 0.5px;
+}
+
+
+.price__jeans1 {
+    position: absolute;
+    z-index: 5;
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+
+    left: 405px;
+    top: 940px;
+
+    letter-spacing: 0.5px;
+}
+
+.price__jeans2 {
+    position: absolute;
+    z-index: 5;
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+
+    left: 1180px;
+    top: 940px;
+
+    letter-spacing: 0.5px;
+}
+
+.price__jeans3 {
+    position: absolute;
+    z-index: 5;
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+
+    left: 405px;
+    top: 1900px;
+
+    letter-spacing: 0.5px;
+}
+
+.price__jeans4 {
+    position: absolute;
+    z-index: 5;
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+
+    left: 1180px;
+    top: 1900px;
+
+    letter-spacing: 0.5px;
+}
+
+.price__jeans5 {
+    position: absolute;
+    z-index: 5;
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+
+    left: 405px;
+    top: 2850px;
+
+    letter-spacing: 0.5px;
+}
+
+
+/*     position: fixed;
+    top: 75px;
+    height: 100vh;
+    width: 300px;
+    align-self: flex-start;
+
+    overflow-y: scroll; */
+
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    position: sticky;
+    top: 75px;
+    height: 100vh;
+    width: 350px;
+
+    overflow-x: hidden;
+
+    z-index: 100;
+}
+
+.content {
+    flex: 1;
+}
+
+.sidebar-menu {
+}
+
+.sidebar__header1 {
+    position: relative;
+    display: flex;
+    
+    top: 40px;
+    left: 15px;
+    line-height: 50px;
+
+    color: black;
+    font-size: 16px;
+}
+
+.sidebar__header2 {
+    position: relative;
+    display: flex;
+    
+    top: 110px;
+    left: 15px;
+
+    color: black;
+    font-size: 16px;
+}
+
+.shorts {
+    position: relative;
+    display: flex;
+
+    left: 15px;
+    top: 45px;
+    line-height: 15px;
+
+    font-size: 12px;
+}
+
+.trousers {
+    position: relative;
+    display: flex;
+
+    left: 15px;
+    top: 55px;
+    line-height: 15px;
+
+    font-size: 12px;
+}
+
+.pants {
+    position: relative;
+    display: flex;
+
+    left: 15px;
+    top: 65px;
+    line-height: 15px;
+
+    font-size: 12px;
+}
+
+.jeans {
+    position: relative;
+    display: flex;
+
+    left: 15px;
+    top: 75px;
+    line-height: 15px;
+
+    font-size: 12px;
+}
+
+
+.switshots {
+    position: relative;
+    display: flex;
+
+    left: 15px;
+    top: 135px;
+    line-height: 15px;
+
+    font-size: 12px;
+}
+
+.zippers {
+    position: relative;
+    display: flex;
+
+    left: 15px;
+    top: 145px;
+    line-height: 15px;
+
+    font-size: 12px;
+}
+
+.tshirts {
+    position: relative;
+    display: flex;
+
+    left: 15px;
+    top: 155px;
+    line-height: 15px;
+
+    font-size: 12px;
+}
+
+.hoodies {
+    position: relative;
+    display: flex;
+
+    left: 15px;
+    top: 165px;
+    line-height: 15px;
+
+    font-size: 12px;
+}
+
+.shirts {
+    position: relative;
+    display: flex;
+
+    left: 15px;
+    top: 175px;
+    line-height: 15px;
+
+    font-size: 12px;
+}
+
+.headress {
+    position: relative;
+    display: flex;
+
+    left: 15px;
+    top: 185px;
+    line-height: 15px;
+
+    font-size: 12px;
+}
+
+
+/* ---------------------------------------------------------- */
+
+
+
+
+
+/* footer__jeans */
+/* footer__jeans */
+/* footer__jeans */
+/* footer__jeans */
+/* footer__jeans */
+
+
+.footer__jeans {
+    background-color: #1f1d1d;
+    padding: 140px 0;
+    width: 100%;
+
+    position: absolute;
+    z-index: 10;
+    top: 3000px;
+
+    margin-top: auto;
+}
+
+.footer__logo__jeans {
+    position: absolute;
+    left: 48.5%;
+    top: 25%;
+}
+
+.footer__jeans__2 {
+    background-color: #2b2b2a;
+    padding: 35px 0;
+    width: 100%;
+
+    position: absolute;
+    z-index: 2;
+    top: 3275px;
+
+    margin-top: auto;
+}
+
+.container__jeans__3 {
+    background-color: #fff;
+    padding: 0.5px 0;
+    width: 100%;
+
+    position: absolute;
+    z-index: 2;
+    top: 3375px;
+
+    margin-top: auto;
+}
+
+.payment__jeans {
+    position: relative;
+    left: 48%;
+    bottom: 10px;
+}
+
+.payment__jeans1 {
+    position: relative;
+    left: 48%;
+    bottom: 5px;
+}
+
+
+/* ---------------------------------------------------------- */
+
+
+.OGP__Skater__text {
+    position: absolute;
+    display: flex;
+
+    right: 300px;
+    top: 100px;
+
+    color: #000000;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.OGONPUSHK__Booty__WB__text {
+    position: absolute;
+    display: flex;
+
+    right: 244px;
+    top: 100px;
+
+    color: #000000;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.OGONPUSHKA__Empyrea__Sk__Blue__text {
+    position: absolute;
+    display: flex;
+
+    right: 177px;
+    top: 100px;
+
+    color: #000000;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.OGONPUSHKA__Empyreal__Booty__Blue__text {
+    position: absolute;
+    display: flex;
+
+    right: 160px;
+    top: 100px;
+
+    color: #000000;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.OGONPUSHKA__Booty__text {
+    position: absolute;
+    display: flex;
+
+    right: 275px;
+    top: 100px;
+
+    color: #000000;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.OGP__Skater__price {
+    position: absolute;
+    display: flex;
+
+    right: 535px;
+    top: 150px;
+
+    color: #000000;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.OGP__Skater__price1 {
+    position: absolute;
+    display: flex;
+
+    right: 50px;
+    top: 150px;
+
+    color: #000000;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.button__buy {
+    position: absolute;
+    top: 400px;
+    left: 1330px;
+
+    z-index: 2;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 280px;
+    height: 50px;
+
+    font-weight: 400;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #ffffff;
+
+    background: #131313;
+
+    transition: opacity 0.3s;
+}
+
+.cart {
+    position: absolute;
+    display: flex;
+
+    left: 1075px;
+    top: 915px;
+
+    color: #000000;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.cart1 {
+    position: absolute;
+    display: flex;
+
+    left: 1855px;
+    top: 915px;
+
+    color: #000000;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.cart2 {
+    position: absolute;
+    display: flex;
+
+    left: 1075px;
+    top: 2820px;
+
+    color: #000000;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.cart3 {
+    position: absolute;
+    display: flex;
+
+    left: 1855px;
+    top: 1870px;
+
+    color: #000000;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.cart4 {
+    position: absolute;
+    display: flex;
+
+    left: 1075px;
+    top: 1870px;
+
+    color: #000000;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+.button__cart {
+    position: absolute;
+    top: 400px;
+    left: 1611px;
+
+    z-index: 2;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 190px;
+    height: 50px;
+
+    font-weight: 400;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #ffffff;
+
+    background: #131313;
+
+    transition: opacity 0.3s;
+}
+
+.button__heart {
+    position: absolute;
+    top: 400px;
+    left: 1802px;
+
+    z-index: 2;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 50px;
+    height: 50px;
+
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+
+    background: #131313;
+
+    transition: opacity 0.3s;
+}
+
+
+.button__buy:hover {
+    opacity: 0.8;
+}
+
+.button__cart:hover {
+    opacity: 0.8;
+}
+
+.button__heart:hover {
+    opacity: 0.8;
+}
+
+.product__description {
+    position: absolute;
+
+    top: 575px;
+    left: 1330px;
+    max-width: 550px;
+
+    color: black;
+    font-size: 13px;
+    line-height: 1.75;
+    letter-spacing: 0.1px;
+}
+
+.tshirt__outline__text {
+    position: absolute;
+
+    top: 510px;
+    left: 1360px;
+
+    color: black;
+    font-size: 13px;
+}
+
+.tshirt__outline {
+    position: absolute;
+
+    top: 525px;
+    left: 1330px;
+
+    width: 20px;
+    height: 20px;
+}
+
+
+.refound {
+    position: absolute;
+
+    top: 464px;
+    left: 1360px;
+
+    color: black;
+    font-size: 13px;
+}
+
+.clock {
+    position: absolute;
+
+    top: 480px;
+    left: 1330px;
+
+    width: 20px;
+    height: 20px;
+}
+
+
+/* ---------------------------------------------------------- */
+
+
+.tshirt1 {
+    position: absolute;
+    width: 716.28px;
+
+    left: 400px;
+    top: 100px;
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.tshirt2 {
+    position: absolute;
+    width: 716.28px;
+
+    left: 1175px;
+    top: 100px;
+
+    margin: 0;
+    padding: 0;
+}
+
+.tshirt3 {
+    position: absolute;
+    width: 716.28px;
+
+    left: 400px;
+    top: 1050px;
+}
+
+.tshirt4 {
+    position: absolute;
+    width: 716.28px;
+
+    left: 1175px;
+    top: 1050px;
+}
+
+.tshirt5 {
+    position: absolute;
+    width: 716.28px;
+
+    left: 400px;
+    top: 2000px;
+}
+
+.tshirt6 {
+    position: absolute;
+    width: 716.28px;
+
+    left: 1175px;
+    top: 2000px;
+}
+
+.tshirt1__text {
+    position: absolute;
+    z-index: 5;
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+
+    left: 405px;
+    top: 895px;
+
+    letter-spacing: 0.5px;
+}
+
+.tshirt2__text {
+    position: absolute;
+    z-index: 5;
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+
+    left: 1180px;
+    top: 895px;
+
+    letter-spacing: 0.5px;
+}
+
+.tshirt3__text {
+    position: absolute;
+    z-index: 5;
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+
+    left: 405px;
+    top: 1850px;
+
+    letter-spacing: 0.5px;
+}
+
+.tshirt4__text {
+    position: absolute;
+    z-index: 5;
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+
+    left: 1180px;
+    top: 1850px;
+
+    letter-spacing: 0.5px;
+}
+
+.tshirt5__text {
+    position: absolute;
+    z-index: 5;
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+
+    left: 405px;
+    top: 2800px;
+
+    letter-spacing: 0.5px;
+}
+
+.tshirt6__text {
+    position: absolute;
+    z-index: 5;
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+
+    left: 1180px;
+    top: 2800px;
+
+    letter-spacing: 0.5px;
+}
+
+.cart5 {
+    position: absolute;
+    display: flex;
+
+    left: 1855px;
+    top: 2820px;
+
+    color: #000000;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.price__tshirt1 {
+    position: absolute;
+    z-index: 5;
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+
+    left: 405px;
+    top: 940px;
+
+    letter-spacing: 0.5px;
+}
+
+.price__tshirt2 {
+    position: absolute;
+    z-index: 5;
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+
+    left: 1180px;
+    top: 940px;
+
+    letter-spacing: 0.5px;
+}
+
+.price__tshirt3 {
+    position: absolute;
+    z-index: 5;
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+
+    left: 405px;
+    top: 1900px;
+
+    letter-spacing: 0.5px;
+}
+
+.price__tshirt4 {
+    position: absolute;
+    z-index: 5;
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+
+    left: 1180px;
+    top: 1900px;
+
+    letter-spacing: 0.5px;
+}
+
+.price__tshirt5 {
+    position: absolute;
+    z-index: 5;
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+
+    left: 405px;
+    top: 2850px;
+
+    letter-spacing: 0.5px;
+}
+
+.price__tshirt6 {
+    position: absolute;
+    z-index: 5;
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+
+    left: 1180px;
+    top: 2850px;
+
+    letter-spacing: 0.5px;
+}
+
+
+.OGONPUSHKA_Fall__text {
+    position: absolute;
+    display: flex;
+
+    right: 220px;
+    top: 100px;
+
+    color: #000000;
+    font-weight: 600;
+    font-size: 14px; 
+}
+
+.OGONPUSHKA_Fall__price {
+    position: absolute;
+    display: flex;
+
+    right: 535px;
+    top: 150px;
+
+    color: #000000;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.OGONPUSHKA_Fall__price1 {
+    position: absolute;
+    display: flex;
+
+    right: 50px;
+    top: 150px;
+
+    color: #000000;
+    font-weight: 600;
+    font-size: 13px;
+}
